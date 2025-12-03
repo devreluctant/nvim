@@ -1,5 +1,9 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
+
+-- Load theme
+require('theme')
+
 -- Load completion setup first
 require('completion')
 

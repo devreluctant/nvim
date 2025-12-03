@@ -48,6 +48,9 @@ git clone https://github.com/L3MON4D3/LuaSnip.git
 echo "- cmp_luasnip"
 git clone https://github.com/saadparwaiz1/cmp_luasnip.git
 
+# Clone Tokyo Night theme
+git clone https://github.com/folke/tokyonight.nvim.git
+
 echo ""
 echo "✓ All plugins installed successfully!"
 echo "Location: $PACK_DIR"

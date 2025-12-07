@@ -9,6 +9,7 @@ require('completion')
 
 -- Load rustaceanvim configuration
 require('rust-setup')
+require('python-setup')
 
 -- Load telescope configuration
 require('telescope-setup')

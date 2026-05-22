@@ -16,10 +16,6 @@ cd "$PACK_DIR"
 
 echo "Cloning plugins..."
 
-# Clone rustaceanvim
-echo "- rustaceanvim"
-git clone https://github.com/mrcjkb/rustaceanvim.git
-
 # Clone plenary (required by telescope)
 echo "- plenary.nvim"
 git clone https://github.com/nvim-lua/plenary.nvim.git
@@ -79,6 +75,5 @@ echo "Next steps:"
 echo "1. Configure your init.lua and lua files"
 echo "2. Set your terminal font to 'JetBrainsMono Nerd Font'"
 echo "3. Install language servers:"
-echo "   - Rust: rustup component add rust-analyzer"
 echo "   - Python: pip install pyright --break-system-packages"
 echo "4. Restart Neovim"

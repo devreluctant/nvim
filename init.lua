@@ -3,7 +3,6 @@ vim.g.maplocalleader = ' '
 
 require('theme')
 require('completion')
-require('rust-setup')
 require('python-setup')
 require('telescope-setup')
 require('avante-setup')  -- Add this

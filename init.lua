@@ -21,3 +21,9 @@ vim.keymap.set('n', '<C-h>', '<C-w>h', { desc = 'Move to left split' })
 vim.keymap.set('n', '<C-j>', '<C-w>j', { desc = 'Move to lower split' })
 vim.keymap.set('n', '<C-k>', '<C-w>k', { desc = 'Move to upper split' })
 vim.keymap.set('n', '<C-l>', '<C-w>l', { desc = 'Move to right split' })
+
+-- Split resize
+vim.keymap.set('n', '<C-Left>',  '<C-w><', { desc = 'Shrink split width' })
+vim.keymap.set('n', '<C-Right>', '<C-w>>', { desc = 'Expand split width' })
+vim.keymap.set('n', '<C-Up>',    '<C-w>+', { desc = 'Expand split height' })
+vim.keymap.set('n', '<C-Down>',  '<C-w>-', { desc = 'Shrink split height' })

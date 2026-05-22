@@ -51,6 +51,18 @@ git clone https://github.com/saadparwaiz1/cmp_luasnip.git
 # Clone Tokyo Night theme
 git clone https://github.com/folke/tokyonight.nvim.git
 
+# Clone diffview.nvim
+echo "- diffview.nvim"
+git clone https://github.com/sindrets/diffview.nvim.git
+
+# Clone avante.nvim and its dependencies
+echo "- avante.nvim"
+git clone https://github.com/yetone/avante.nvim.git
+echo "- nui.nvim"
+git clone https://github.com/MunifTanjim/nui.nvim.git
+echo "- render-markdown.nvim"
+git clone https://github.com/MeanderingProgrammer/render-markdown.nvim.git
+
 echo ""
 echo "✓ All plugins installed successfully!"
 echo "Location: $PACK_DIR"

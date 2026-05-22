@@ -51,6 +51,10 @@ git clone https://github.com/saadparwaiz1/cmp_luasnip.git
 # Clone Tokyo Night theme
 git clone https://github.com/folke/tokyonight.nvim.git
 
+# Clone nvim-web-devicons (file icons, requires a Nerd Font)
+echo "- nvim-web-devicons"
+git clone https://github.com/nvim-tree/nvim-web-devicons.git
+
 # Clone diffview.nvim
 echo "- diffview.nvim"
 git clone https://github.com/sindrets/diffview.nvim.git
@@ -63,13 +67,18 @@ git clone https://github.com/MunifTanjim/nui.nvim.git
 echo "- render-markdown.nvim"
 git clone https://github.com/MeanderingProgrammer/render-markdown.nvim.git
 
+# Install Nerd Font for icons (requires brew)
+echo "Installing JetBrainsMono Nerd Font..."
+brew install --cask font-jetbrains-mono-nerd-font
+
 echo ""
 echo "✓ All plugins installed successfully!"
 echo "Location: $PACK_DIR"
 echo ""
 echo "Next steps:"
 echo "1. Configure your init.lua and lua files"
-echo "2. Install language servers:"
+echo "2. Set your terminal font to 'JetBrainsMono Nerd Font'"
+echo "3. Install language servers:"
 echo "   - Rust: rustup component add rust-analyzer"
 echo "   - Python: pip install pyright --break-system-packages"
-echo "3. Restart Neovim"
+echo "4. Restart Neovim"

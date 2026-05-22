@@ -55,13 +55,6 @@ git clone https://github.com/nvim-tree/nvim-web-devicons.git
 echo "- diffview.nvim"
 git clone https://github.com/sindrets/diffview.nvim.git
 
-# Clone avante.nvim and its dependencies
-echo "- avante.nvim"
-git clone https://github.com/yetone/avante.nvim.git
-echo "- nui.nvim"
-git clone https://github.com/MunifTanjim/nui.nvim.git
-echo "- render-markdown.nvim"
-git clone https://github.com/MeanderingProgrammer/render-markdown.nvim.git
 
 # Install Nerd Font for icons (requires brew)
 echo "Installing JetBrainsMono Nerd Font..."
